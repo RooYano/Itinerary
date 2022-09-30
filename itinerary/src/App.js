@@ -6,8 +6,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Textfield> Hello
+        <h1>
+          Travel Planner
+        </h1>
+
+        <Textfield> 
         </Textfield> 
    
       </header>
