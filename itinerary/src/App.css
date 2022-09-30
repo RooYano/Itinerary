@@ -1,9 +1,10 @@
 .App {
   text-align: center;
   background-image: url(
-    "../images/cloud_background.jpg"
+    "./images/cloud_background.jpg"
   );
   background-size: cover;
+  font-family: 'Caveat', cursive;
 }
 
 .App-logo {
@@ -11,17 +12,17 @@
   pointer-events: none;
 }
 
-
+h1 {
+  margin-top: 20vw
+}
 
 .App-header {
-  /* background-color: #f7faff; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 4vmin);
-  color: rgb(0, 0, 0);
+  color: rgb(177, 177, 177);
 }
 
 .App-link {
